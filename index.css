@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: blue;
+}
+
+#left-container{
+    width: 30%;
+    background-color: white;
+}
+
+#right-container{
+    width: 70%;
+    background-color:pink;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    background-color:grey;
+}
+
+.section-title{
+    text-align: center;
+}
