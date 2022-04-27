@@ -1,28 +1,141 @@
+* {
+    font-family: Arial;
+    font-size: 1rem;
+    margin: 0;
+}
+
+h1,h2{
+    text-align: center;
+    margin:5px;
+}
+h1{
+    font-size: 1.6rem;
+}
+
+h3{
+    margin-left: 1rem;
+}
+
 .container{
     display: flex;
     flex-direction: row;
-}
-
-body{
-    background-color: blue;
+    flex-wrap: wrap;
+    
 }
 
 #left-container{
-    width: 30%;
+    /*max-width: 40%;*/
+    max-width:300px;
     background-color: white;
+    padding:10px;
+    flex:1;
+    min-width: 200px;
 }
 
 #right-container{
-    width: 70%;
-    background-color:pink;
+    /* max-width: 60%; */
+    max-width: 450px;
+    background-color:rgb(255, 255, 255);
+    padding:10px;
+    flex:2;
+    min-width: 300px;
+
 }
 
-.section{
+.section-content{
+    margin-bottom:20px;
+}
+
+.portrait{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photo{
+    width: 100%;
+    /*max-width: 200px;*/
+}
+
+
+.name{
+    background-color:grey;
+    border-top:3px solid red;
+    margin-bottom:15px;
+}
+
+.division{
+    text-align: center;
+    background-color:gray;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.division img{
+    float: left;
+}
+
+.logo{
+    width: 24px;
+    height: 30px;
+}
+
+.dropdown{
+    width: 24px;
+    height: 30px;
+}
+
+.division div{
+    
+    float:center;
+    margin-top:7px;
+}
+
+
+
+.data{
     display: flex;
     flex-direction: row;
-    background-color:grey;
+    margin: 8px 0px;
+
 }
 
-.section-title{
-    text-align: center;
+.data img{
+    width: 40px;
+    height: 40px;
+}
+
+p{
+    text-align: justify;
+}
+
+.skill{
+    margin:5px 0px;
+}
+
+.bar{
+    height:24px;
+    width:20%;
+    background-color:aqua;
+    display:block;
+}
+
+.progress{
+    border:1px solid #ccc;
+
+}
+
+
+.jobexp{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.separator{
+    flex-grow: 1;
+}
+
+.years{
+    color: red;
 }
