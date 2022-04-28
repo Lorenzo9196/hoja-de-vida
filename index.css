@@ -42,10 +42,6 @@ h3{
 
 }
 
-.section-content{
-    margin-bottom:20px;
-}
-
 .portrait{
     display: flex;
     flex-direction: column;
@@ -71,18 +67,17 @@ h3{
     margin-bottom: 10px;
 }
 
+
+
 .division img{
     float: left;
+
 }
 
 .logo{
     width: 24px;
     height: 30px;
-}
-
-.dropdown{
-    width: 24px;
-    height: 30px;
+    background-color:red;
 }
 
 .division div{
@@ -107,16 +102,34 @@ h3{
 
 p{
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .skill{
     margin:5px 0px;
 }
 
-.bar{
+.bar1{
+    height:24px;
+    width:30%;
+    display:block;
+}
+
+.bar2{
     height:24px;
     width:20%;
-    background-color:aqua;
+    display:block;
+}
+
+.bar3{
+    height:24px;
+    width:20%;
+    display:block;
+}
+
+.bar4{
+    height:24px;
+    width:50%;
     display:block;
 }
 
@@ -138,4 +151,33 @@ p{
 
 .years{
     color: red;
+}
+
+.section-experience{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.section-education{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.section-certificates{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.section-references{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#left2-container{
+    background-color:red;
+}
+
+.background{
+    background-color:white;
+    width: auto;
 }

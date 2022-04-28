@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" type="text/css" media="all">
+    <script src="index.js"></script>
     <title>Hoja de vida</title>
 </head>
 
@@ -68,25 +69,25 @@
                     <article class="skill">
                         <h3>HTML</h3>
                         <div class="progress">
-                            <div class="bar"></div>
+                            <div class="logo bar1"></div>
                         </div>
                     </article>
                     <article class="skill">
                         <h3>CSS</h3>
                         <div class="progress">
-                            <div class="bar"></div>
+                            <div class="logo bar2"></div>
                         </div>
                     </article>
                     <article class="skill">
                         <h3>JAVASCRIPT</h3>
                         <div class="progress">
-                            <div class="bar"></div>
+                            <div class="logo bar3"></div>
                         </div>
                     </article>
                     <article class="skill">
                         <h3>JAVA</h3>
                         <div class="progress">
-                            <div class="bar"></div>
+                            <div class="logo bar4"></div>
                         </div>
                     </article>
 
@@ -99,77 +100,80 @@
 
         <aside id="right-container">
             
-            <section class="experience">
+            <section id="experience" onclick="show_hide_exp()">
                 <section class="division">
-                    <img class="dropdown" src="images/person.png">
+                    <img class="logo" src="images/experience.png">
                     <div>EXPERIENCE</div>
                 </section>
-                <section class="section-content">
-                    <div class="jobexp">
-                        <div class="jobtitle"><b>Project Engineer</b></div>
-                        <div class="separator"></div>
-                        <div class="years"><b>2019 - 2021</b></div>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Nihil odit saepe eos 
-                        veniam doloremque tempore quis perspiciatis 
-                        praesentium similique nemo velit dolorum, 
-                        in sit sapiente ipsa dignissimos. Aliquam, 
-                        molestias dignissimos? 
+                <section class="section-experience">
+                    <section>
+                        <div class="jobexp">
+                            <div class="jobtitle"><b>Project Engineer</b></div>
+                            <div class="separator"></div>
+                            <div class="years"><b>2019 - 2021</b></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Nihil odit saepe eos 
+                            veniam doloremque tempore quis perspiciatis 
+                            praesentium similique nemo velit dolorum, 
+                            in sit sapiente ipsa dignissimos. Aliquam, 
+                            molestias dignissimos? 
 
-                    </p>
-                    
+                        </p>
+                        
 
-                </section>
+                    </section>
 
-                <section class="section-content">
-                    <div class="jobexp">
-                        <div class="jobtitle"><b>Project Engineer</b></div>
-                        <div class="separator"></div>
-                        <div class="years"><b>2019 - 2021</b></div>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Nihil odit saepe eos 
-                        veniam doloremque tempore quis perspiciatis 
-                        praesentium similique nemo velit dolorum, 
-                        in sit sapiente ipsa dignissimos. Aliquam, 
-                        molestias dignissimos? 
+                    <section>
+                        <div class="jobexp">
+                            <div class="jobtitle"><b>Project Engineer</b></div>
+                            <div class="separator"></div>
+                            <div class="years"><b>2019 - 2021</b></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Nihil odit saepe eos 
+                            veniam doloremque tempore quis perspiciatis 
+                            praesentium similique nemo velit dolorum, 
+                            in sit sapiente ipsa dignissimos. Aliquam, 
+                            molestias dignissimos? 
 
-                    </p>
-                    
+                        </p>
+                        
 
-                </section>
+                    </section>
 
 
-                <section class="section-content">
-                    <div class="jobexp">
-                        <div class="jobtitle"><b>Project Engineer</b></div>
-                        <div class="separator"></div>
-                        <div class="years"><b>2019 - 2021</b></div>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Nihil odit saepe eos 
-                        veniam doloremque tempore quis perspiciatis 
-                        praesentium similique nemo velit dolorum, 
-                        in sit sapiente ipsa dignissimos. Aliquam, 
-                        molestias dignissimos? 
+                    <section>
+                        <div class="jobexp">
+                            <div class="jobtitle"><b>Project Engineer</b></div>
+                            <div class="separator"></div>
+                            <div class="years"><b>2019 - 2021</b></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Nihil odit saepe eos 
+                            veniam doloremque tempore quis perspiciatis 
+                            praesentium similique nemo velit dolorum, 
+                            in sit sapiente ipsa dignissimos. Aliquam, 
+                            molestias dignissimos? 
 
-                    </p>
-                    
+                        </p>
+                        
 
+                    </section>
                 </section>
 
             </section>
 
-            <section class="experience">
+            <section id="education" onclick="show_hide_edu()">
                 <section class="division">
-                    <img class="dropdown" src="images/person.png">
-                    <div>EXPERIENCE</div>
+                    <img class="logo" src="images/education.png">
+                    <div>EDUCATION</div>
                 </section>
-                <section class="section-content">
+                <section class="section-education">
+                    <section>
                     <div class="jobexp">
                         <div class="jobtitle"><b>Project Engineer</b></div>
                         <div class="separator"></div>
@@ -184,9 +188,8 @@
                     </p>
                     
 
-                </section>
-
-                <section class="section-content">
+                    </section>
+                    <section>
                     <div class="jobexp">
                         <div class="jobtitle"><b>Project Engineer</b></div>
                         <div class="separator"></div>
@@ -201,94 +204,94 @@
                     </p>
                     
 
-                </section>
-
-
-                <section class="section-content">
-                    <div class="jobexp">
-                        <div class="jobtitle"><b>Project Engineer</b></div>
-                        <div class="separator"></div>
-                        <div class="years"><b>2019 - 2021</b></div>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Nihil odit saepe eos 
-                        veniam doloremque tempore quis perspiciatis 
-                
-
-                    </p>
+                    </section>
+                    <section>
+                        <div class="jobexp">
+                            <div class="jobtitle"><b>Project Engineer</b></div>
+                            <div class="separator"></div>
+                            <div class="years"><b>2019 - 2021</b></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Nihil odit saepe eos 
+                            veniam doloremque tempore quis perspiciatis 
                     
 
+                        </p>
+                        
+
+                    </section>
+                </section>
+            </section>
+
+
+            <section id="certificates" onclick="show_hide_cert()">
+                <section class="division">
+                    <img class="logo" src="images/certificate.png">
+                    <div>CERTIFICATES & AWARDS</div>
+                </section>
+
+                <section  class="section-certificates">
+                    <section>
+                        <div class="jobexp">
+                            <div class="jobtitle"><b>Project Engineer</b></div>
+                            <div class="separator"></div>
+                            <div class="years"><b>2017</b></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Nihil odit saepe eos 
+                            veniam doloremque tempore quis perspiciatis 
+                        
+
+                        </p>
+                        
+
+                    </section>
+
+                    <section>
+                        <div class="jobexp">
+                            <div class="jobtitle"><b>Project Engineer</b></div>
+                            <div class="separator"></div>
+                            <div class="years"><b>2019</b></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Nihil odit saepe eos 
+                            veniam doloremque tempore quis perspiciatis 
+                        
+
+                        </p>
+                        
+
+                    </section>
+
+                    <section>
+                        <div class="jobexp">
+                            <div class="jobtitle"><b>Project Engineer</b></div>
+                            <div class="separator"></div>
+                            <div class="years"><b>2021</b></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Nihil odit saepe eos 
+                            veniam doloremque tempore quis perspiciatis 
+                        
+
+                        </p>
+                        
+
+                    </section>
                 </section>
 
             </section>
 
-
-            <section class="experience">
+            <section id="references" onclick="show_hide_ref()">
                 <section class="division">
-                    <img class="dropdown" src="images/person.png">
-                    <div>EXPERIENCE</div>
+                    <img class="logo" src="images/person.png">
+                    <div>REFERENCES</div>
                 </section>
-                <section class="section-content">
-                    <div class="jobexp">
-                        <div class="jobtitle"><b>Project Engineer</b></div>
-                        <div class="separator"></div>
-                        <div class="years"><b>2019 - 2021</b></div>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Nihil odit saepe eos 
-                        veniam doloremque tempore quis perspiciatis 
-                       
-
-                    </p>
-                    
-
-                </section>
-
-                <section class="section-content">
-                    <div class="jobexp">
-                        <div class="jobtitle"><b>Project Engineer</b></div>
-                        <div class="separator"></div>
-                        <div class="years"><b>2019 - 2021</b></div>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Nihil odit saepe eos 
-                        veniam doloremque tempore quis perspiciatis 
-                      
-
-                    </p>
-                    
-
-                </section>
-
-
-                <section class="section-content">
-                    <div class="jobexp">
-                        <div class="jobtitle"><b>Project Engineer</b></div>
-                        <div class="separator"></div>
-                        <div class="years"><b>2019 - 2021</b></div>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Nihil odit saepe eos 
-                        veniam doloremque tempore quis perspiciatis 
-                     
-
-                    </p>
-                    
-
-                </section>
-
-            </section>
-
-            <section class="experience">
-                <section class="division">
-                    <img class="dropdown" src="images/person.png">
-                    <div>EXPERIENCE</div>
-                </section>
-                <section class="section-content">
+                <section class="section-references">
                     
                     <p>
                         Lorem ipsum dolor sit amet consectetur, 
@@ -306,8 +309,13 @@
 
             </section>
 
+            <section id="random_color" onclick="random_color()">
+                <button>Presiona aquí</button>
+            </section>
 
         </aside>
+
+
     </section>
 </body>
 
